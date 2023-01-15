@@ -1,0 +1,21 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #ddd; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services p{
+    font-size: .75rem;
+    color: rgb(54, 53, 53);
+}
+.services-offer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    gap: 3rem;
+    margin-top: 20px;
+}
+

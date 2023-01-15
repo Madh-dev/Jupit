@@ -1,0 +1,35 @@
+.install{
+    background: var(--color-white);
+    margin: 20px auto 50px;
+
+}
+.install_join{
+    background: var(--bg-blue);
+    padding:2rem  4rem 1.5rem;
+    color: var(--color-white);
+}
+.install_join > h5{
+    width: 100%;
+    letter-spacing: .2rem;
+}
+.install_process{
+    width: 70%;
+    display : block;
+    margin: 0 auto;
+
+}
+.install_process > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+a{
+    color: #000;
+    font-weight: 600;
+}
+.install_img > img{
+        margin-bottom: 1.5rem;
+}
+.install_img > h3{
+    margin-bottom: 0.5rem;
+}
